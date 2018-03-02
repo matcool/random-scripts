@@ -4,7 +4,7 @@
 offline/trash version of <https://ismyinternetworking.com>
 
 ### dither.py
-floyd dither algorithm thing i made i think theres way better versions of it out there
+floyd dither algorithm but its really slow
 
 ### imgtobraille.py
-use drawille thx
+use drawille instead thx
