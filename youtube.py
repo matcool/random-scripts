@@ -1,7 +1,11 @@
 from bs4 import BeautifulSoup
 import os
 import requests
-vlc = r'C:\Program Files (x86)\VideoLAN\VLC\vlc'
+from platform import system
+if system() != 'Windows':
+    vlc = 'vlc'
+else:
+    vlc = r'C:\Program Files (x86)\VideoLAN\VLC\vlc'
 
 query = input("what to search: ")
 raw = requests.get("https://www.youtube.com/results?search_query={}".format(query))
