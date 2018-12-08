@@ -1,10 +1,10 @@
 # randomCode
 
 ### IsMyInternetWorking.py
-offline/trash version of <https://ismyinternetworking.com>
+<https://ismyinternetworking.com> but on asciimatics
 
 ### dither.py
 floyd dither algorithm but its really slow
 
 ### imgtobraille.py
-use drawille instead thx
+i dont even know how this works anymore
