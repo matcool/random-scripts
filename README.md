@@ -1,5 +1,4 @@
-# randomCode
-
+# some of my terrible code
 ### IsMyInternetWorking.py
 <https://ismyinternetworking.com> but on asciimatics
 
