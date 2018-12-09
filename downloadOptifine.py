@@ -46,8 +46,8 @@ with open('mmc-pack.json','r+') as f:
 
 mcversion = None
 for i in mmcpack['components']:
-    if i['cachedName'] == 'Minecraft':
-        mcversion = i['cachedVersion']
+    if i['uid'] == 'net.minecraft':
+        mcversion = i['version']
         break
 
 if mcversion != None: yn = input(f'Minecraft {mcversion} was detected, use it? [y/n] ')
