@@ -1,9 +1,10 @@
 from asciimatics.screen import Screen
 from asciimatics.renderers import FigletText
 from subprocess import run
+from os import name as osname
 
 def check():
-    return not run('ping -n 1 google.com', stdout=0).returncode
+    return not run('ping -{} 1 google.com'.format('n' if osname == 'nt' else 'c'), stdout=-3, shell=True).returncode
 
 def getText(working):
     if working:
