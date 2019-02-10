@@ -5,7 +5,8 @@ needs to be ran in the instances folder.
 Needs BeautifulSoup4 to run ( `pip install beautifulsoup4` )
 
 
-might make a gui for this later or not because i suck at making them
+#### downloadOptifineGui.pyw
+same as above except it has a gui made in wx and you can put the script anywhere
 
 ### IsMyInternetWorking.py
 <https://ismyinternetworking.com> but on asciimatics
