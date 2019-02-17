@@ -43,7 +43,7 @@ while 1:
 			pygame.display.quit()
 			sys.exit(0)
 		elif event.type == VIDEORESIZE:
-			size = window,height = event.size
+			size = width, height = event.size
 			screen = pygame.display.set_mode(size, pygame.RESIZABLE)
 
 	screen.fill(BACKGROUNDC)
